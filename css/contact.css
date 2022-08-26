@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(40, 70, 191, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../media/istockphoto-1221329241-612x612.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactInfo {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #173753;
+    border-radius: 5px;
+    width: 18%;
+    padding-top: 10px;
+    margin: 5%;
+    text-align: center;
+}
+
+.contactInfo a {
+    color: #173753;
+}
+
+.contact-box {
+    margin-top: 5%;
+}

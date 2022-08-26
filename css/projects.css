@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#projects {
+    width: 100%;
+    height: inherit;
+    background: rgb(40,146,215);
+    background: linear-gradient(0deg, rgba(40,146,215,1) 48%, rgba(4,7,56,1) 100%);
+}
+
+.proj-sec-title {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.card-box {
+    background: #4e49497a;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.spacing {
+    width: 70%;
+    padding-left: 1%;
+}
+
+.section-header {
+    padding-top: 15px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.card-btn {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+/* @media screen and (min-width: 576px), (max-width: 768px) {
+    .spacing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} */

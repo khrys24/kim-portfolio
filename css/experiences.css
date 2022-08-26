@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#experience {
+    width: 100%;
+    height: inherit;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../media/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-matrix-background-with-digits-1-0-ill.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.experiences {
+    color: whitesmoke;
+    padding: 3%;
+}
+
+.experiences img {
+    width: 15%;
+}
+
+.exp-center {
+    display: flex;
+    justify-content: center;
+}
+
+.nbi, .sss2, .angkas {
+    text-align: end;
+}
