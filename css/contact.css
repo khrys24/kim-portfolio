@@ -28,7 +28,7 @@
     color: #173753;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
     .contactInfo {
         width: 80%;
     }
