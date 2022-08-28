@@ -1,11 +1,4 @@
-* {
-    box-sizing: border-box;
-}
 
-body {
-    padding: 0px;
-    margin: 0px;
-}
 
 #contact {
     width: 100%;
@@ -25,9 +18,9 @@ body {
     align-items: center;
     border: 1px solid #173753;
     border-radius: 5px;
-    width: 18%;
+    width: 30%;
     padding-top: 10px;
-    margin: 5%;
+    margin: 3%;
     text-align: center;
 }
 
@@ -35,6 +28,12 @@ body {
     color: #173753;
 }
 
-.contact-box {
-    margin-top: 5%;
+@media screen and (max-width: 426px) {
+    .contactInfo {
+        width: 80%;
+    }
 }
+
+/* .contact-box {
+    margin-top: 5%;
+} */

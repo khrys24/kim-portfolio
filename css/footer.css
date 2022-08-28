@@ -1,16 +1,15 @@
-* {
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0px;
-    padding: 0px;
-}
 
 footer {
     background-color: #173753;
     color: whitesmoke;
     width: 100%;
-    height: 30px;
+    height: inherit;
     text-align: center;
 }
+
+/* @media screen and (max-width: 375px) {
+    footer {
+        height
+    }
+} */

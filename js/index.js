@@ -1,4 +1,10 @@
-const myName = ['Khrystine Icah Masiglat 😀.', 'currently training at Kodego.', 'a Lady Biker.', 'a Driver.', 'a Blackpink fan girl.', 'a Pet Lover.', 'an Online Gamer.', 'an Arcade Gamer.'];
+const myName = [
+    'Khrystine Icah Masiglat 😀.',
+    'an aspiring web developer.',
+    'a Lady Biker.',
+    'a Pet Lover.',
+    'an Online Gamer.',
+    'an Arcade Gamer.'];
 let count = 0;
 let index = 0;
 let currentText = '';
